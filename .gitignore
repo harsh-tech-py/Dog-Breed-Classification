@@ -1,0 +1,16 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore heavy model weights but keep JSON configs in models/
+*.h5
+*.pkl
+*.pt
+*.pth
+
+# Ignore temporary uploaded files in the uploads folder if needed
+uploads/*
+!uploads/.gitkeep
+
+# Ignore checkpoint files
+.ipynb_checkpoints/
+__pycache__/
